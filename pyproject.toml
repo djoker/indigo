@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "indigo"
+version = "0.1.0"
+description = "Code test for IndigoAg"
+authors = ["Marcio M. <marcio.mendonca@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyright = "^1.1.339"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.18.1"
+pytest = "^7.4.3"
+ruff = "^0.1.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
